@@ -1,0 +1,591 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ *    v2.0 | 20110126
+ *       License: none (public domain)
+ *       */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* source-sans-pro-300 - latin_greek-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/source-sans-pro-v21-latin_greek-ext-300.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+}
+/* source-sans-pro-regular - latin_greek-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+}
+/* source-sans-pro-600 - latin_greek-ext */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/source-sans-pro-v21-latin_greek-ext-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+}
+/* source-sans-pro-200 - latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/source-sans-pro-v21-latin-200.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/source-sans-pro-v21-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-200.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-200.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-200.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-200.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.show {
+  display: block;
+  visibility: visible;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  body {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+  section {
+    padding-top: 50px;
+  }
+  p, blockquote, h1, h2, h3, .super-headline {
+    padding-left: 15px;
+  }
+  h1 {
+    padding-top: 15px;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+  h1 #uppercase {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  h2 {
+    color: #F4A76C;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+  }
+  h3 {
+    color: #F4A76C;
+    padding-top: 55px;
+    margin-bottom: 15px;
+  }
+  #title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .super-headline {
+    color: #363636;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    font-size: 10px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+  .level {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #363636 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    margin-top: 80px;
+    min-height: 200px;
+    padding-bottom: 40px;
+  }
+  .level .box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .level .box .quote {
+    height: 60px;
+    width: 60px;
+  }
+  .level .box p {
+    margin-bottom: 15px;
+  }
+  .level .circle {
+    background-color: #595959;
+    position: absolute;
+    margin-bottom: 25px;
+    border-radius: 80px;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .level .circle img {
+    height: 65px;
+  }
+  .level [class^=apply-] {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    z-index: 2;
+    transform-origin: 0% 100%;
+    transform: translateX(100%) rotate(-90deg);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(0deg, 0%, 10%);
+    background-color: hsl(0deg, 0%, 97%);
+    padding: 10px 10px 16px 16px;
+  }
+  .level .apply-1 {
+    bottom: -56px;
+    width: 304px;
+  }
+  .level .apply-2 {
+    bottom: -424px;
+    width: 290px;
+  }
+  .level .apply-3 {
+    bottom: -808px;
+    width: 306px;
+  }
+  .button {
+    top: 412px;
+    left: 287px;
+    width: 145px;
+    height: 34px;
+    border: 1px solid #F4A76C;
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    margin: 10px;
+  }
+  header {
+    background-image: url("../images/dance_two_man.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    display: flex;
+    flex-direction: column;
+    background-position: 50% 0;
+    height: 400px;
+  }
+  header h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  header .box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: end;
+    height: 100%;
+  }
+  header #headline {
+    width: 220px;
+    left: 0;
+  }
+  header li {
+    font-size: 16px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+  }
+  #about {
+    padding-bottom: 40px;
+    background: #FFF7F2 0% 0% no-repeat padding-box;
+  }
+  #about h2 {
+    padding-top: 5px;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  #about .button {
+    margin-top: 20px;
+    color: black;
+  }
+  #about img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #news article {
+    padding-bottom: 20px;
+    margin: 15px;
+    background-color: #F7F7F7;
+  }
+  #news article .button {
+    margin-top: 20px;
+    color: black;
+  }
+  #news article img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #news article h3 {
+    padding-top: 10px;
+  }
+}
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+section {
+  padding-top: 50px;
+}
+
+p, blockquote, h1, h2, h3, .super-headline {
+  padding-left: 15px;
+}
+
+h1 {
+  padding-top: 15px;
+  color: white;
+  font-size: 14px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+h1 #uppercase {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h2 {
+  color: #F4A76C;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+h3 {
+  color: #F4A76C;
+  padding-top: 55px;
+  margin-bottom: 15px;
+}
+
+#title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.super-headline {
+  color: #363636;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  font-size: 10px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.level {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #363636 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: white;
+  margin-top: 80px;
+  min-height: 200px;
+  padding-bottom: 40px;
+}
+.level .box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.level .box .quote {
+  height: 60px;
+  width: 60px;
+}
+.level .box p {
+  margin-bottom: 15px;
+}
+.level .circle {
+  background-color: #595959;
+  position: absolute;
+  margin-bottom: 25px;
+  border-radius: 80px;
+  width: 105px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.level .circle img {
+  height: 65px;
+}
+
+.button {
+  top: 412px;
+  left: 287px;
+  width: 145px;
+  height: 34px;
+  border: 1px solid #F4A76C;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  margin: 10px;
+}
+
+header {
+  background-image: url("../images/dance_two_man.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  display: flex;
+  flex-direction: column;
+  background-position: 50% 0;
+  height: 400px;
+}
+header h2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+header .box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: end;
+  height: 100%;
+}
+header #headline {
+  width: 220px;
+  left: 0;
+}
+header li {
+  font-size: 16px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+#about {
+  padding-bottom: 40px;
+  background: #FFF7F2 0% 0% no-repeat padding-box;
+}
+#about h2 {
+  padding-top: 5px;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+#about .button {
+  margin-top: 20px;
+  color: black;
+}
+#about img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#news article {
+  padding-bottom: 20px;
+  margin: 15px;
+  background-color: #F7F7F7;
+}
+#news article .button {
+  margin-top: 20px;
+  color: black;
+}
+#news article img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#news article h3 {
+  padding-top: 10px;
+}
+
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  #hamburger {
+    width: 24px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border: none;
+    background-color: transparent;
+    z-index: 999;
+  }
+  #hamburger.hover {
+    cursor: pointer;
+  }
+  #hamburger .line-1 {
+    top: 0;
+    background-color: #F4A76C;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    right: 1px;
+    transition: transform 0.5s ease;
+  }
+  #hamburger .line-3 {
+    top: 9px;
+    background-color: #F4A76C;
+    width: 60%;
+    height: 1px;
+    position: absolute;
+    right: 1px;
+    transition: transform 0.5s ease;
+  }
+  #hamburger.open .line-1 {
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+  #hamburger.open .line-3 {
+    transform: rotate(-45deg) translate(11px, 5px);
+    transform-origin: 9px 21px;
+    width: 100%;
+  }
+  #hamburger.closed + ul {
+    transform: translateX(100%);
+    transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+}
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  #mainnav {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+}
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  #mainnav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: #363636;
+    z-index: 88;
+  }
+  #mainnav ul {
+    position: fixed;
+    padding: 3rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+    max-width: 15rem;
+    box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: 0;
+    background-color: #363636;
+    height: 100vh;
+    width: 100%;
+    z-index: 88;
+  }
+  #mainnav ul li {
+    text-align: right;
+    margin-top: 24px;
+  }
+  #mainnav ul a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+  }
+}
+footer {
+  background-color: #363636;
+  color: white;
+  margin-bottom: 0;
+  min-height: 200px;
+  padding: 15px;
+}
+footer a {
+  color: #F4A76C;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
