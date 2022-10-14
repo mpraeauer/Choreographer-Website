@@ -103,7 +103,7 @@ table {
     display: flex;
     width: 100%;
     flex-direction: column;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 300;
   }
@@ -117,7 +117,7 @@ table {
     padding-top: 15px;
     color: white;
     font-size: 14px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 300;
   }
@@ -127,7 +127,7 @@ table {
   }
   h2 {
     color: #F4A76C;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 28px;
@@ -146,7 +146,7 @@ table {
     text-transform: uppercase;
     letter-spacing: 1%;
     font-size: 10px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 300;
   }
@@ -175,6 +175,23 @@ table {
   .level .box p {
     margin-bottom: 15px;
   }
+  .level .box .number {
+    position: absolute;
+    color: #F4A76C;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 33%;
+    margin-bottom: 90px;
+  }
+  .level .box .number p {
+    padding: 0;
+    margin: 0;
+  }
   .level .circle {
     background-color: #595959;
     position: absolute;
@@ -196,7 +213,7 @@ table {
     z-index: 2;
     transform-origin: 0% 100%;
     transform: translateX(100%) rotate(-90deg);
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 14px;
@@ -230,7 +247,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 12px;
@@ -255,7 +272,7 @@ table {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 110px;
     align-items: end;
     height: 100%;
   }
@@ -265,7 +282,7 @@ table {
   }
   header li {
     font-size: 16px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 200;
   }
@@ -307,7 +324,7 @@ body {
   display: flex;
   width: 100%;
   flex-direction: column;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -324,7 +341,7 @@ h1 {
   padding-top: 15px;
   color: white;
   font-size: 14px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -335,7 +352,7 @@ h1 #uppercase {
 
 h2 {
   color: #F4A76C;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 28px;
@@ -357,7 +374,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1%;
   font-size: 10px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -416,7 +433,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 12px;
@@ -452,7 +469,7 @@ header #headline {
 }
 header li {
   font-size: 16px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 200;
 }
@@ -501,6 +518,7 @@ header li {
     border: none;
     background-color: transparent;
     z-index: 999;
+    height: 50px;
   }
   #hamburger.hover {
     cursor: pointer;
