@@ -9,6 +9,9 @@
         width: 100%;
         background-color: #363636;
         z-index: 88;
+        button{
+            display: block;
+        }
 
         ul {
             position: fixed;
