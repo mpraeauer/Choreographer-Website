@@ -7,24 +7,6 @@
     - Create E-mail-address datenschutz@
     – Host fonts locally with https://google-webfonts-helper.herokuapp.com/fonts
 -->
-<script>
-window.addEventListener("resize", getTemplate);
-
-CurrentPage = 'DesktopPage';
-
-function getTemplate() {
-    if (screen.width >= 600 && CurrentPage != 'DesktopPage') {
-        return window.location.replace("desktop.html");
-    }
-
-    if (screen.width < 767 && CurrentPage != 'MobilePage') {
-        return window.location.replace("mobile.html");
-    }
-}
-</script>
-
-getTemplate();
-
 <!DOCTYPE html>
 <html lang="en">
 

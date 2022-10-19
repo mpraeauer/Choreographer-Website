@@ -86,7 +86,9 @@
 
   .level h3 {
     font-size: 22px;
-    font-family: "Source Sans Pro Light";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     color: #FFAD6E;
     padding-top: 0px;
   }
@@ -94,7 +96,9 @@
   .level p {
     padding-top: 20px;
     font-size: 16px;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-weight: 100;
     color: white;
     padding-bottom: 40px;
@@ -102,7 +106,9 @@
 
   .level a {
     font-size: 16px;
-    font-family: "Source Sans Pro SemiBold";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     color: white;
     text-transform: uppercase;
     border: #FFAD6E;
@@ -124,7 +130,9 @@
   }
 
   .level blockquote {
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     color: white;
     font-size: 22px;
     padding-top: 10px;
@@ -137,7 +145,7 @@
     align-items: center;
   }
 
-  .icon {
+  [class^=icon-] {
     width: 115px;
     height: 115px;
     border-radius: 50%;
@@ -172,6 +180,9 @@
 
   #workshops {
     display: grid;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     height: 1999px;
     grid-template-columns: 1fr 0.1fr;
     grid-template-rows: 175px 521px 87px 521px 87px 521px 87px;
@@ -185,7 +196,9 @@
     transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     color: #1A1A1A;
     background-color: #F7F7F7;
@@ -199,7 +212,9 @@
     transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     color: #1A1A1A;
     background-color: #F7F7F7;
@@ -213,7 +228,9 @@
     transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     color: #1A1A1A;
     background-color: #F7F7F7;
@@ -225,7 +242,9 @@
   }
 
   .text-levels .super-headline {
-    font-family: "Source Sans Pro SemiBold";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 16px;
     color: #363636;
     text-transform: uppercase;
@@ -233,7 +252,9 @@
   }
 
   .text-levels h2 {
-    font-family: "Source Sans Pro Light";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 28px;
     color: #D5874C;
   }
@@ -253,7 +274,7 @@
     background-color: #363636;
   }
 
-  [class^=icon-]section {
+  .iconsection {
     display: flex;
     justify-content: center;
     position: relative;
@@ -282,7 +303,9 @@
     text-transform: uppercase;
     font-size: 16px;
     padding-left: 17px;
-    font-family: "Source Sans Pro SemiBold";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
   }
 
   #about div h2 {
@@ -290,7 +313,9 @@
     color: #D5874C;
     padding-left: 17px;
     margin-bottom: 12px;
-    font-family: "Source Sans Pro Light";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
   }
 
   #about div .text {
@@ -306,7 +331,9 @@
     font-size: 16px;
     border: 1px solid #FFAD6E;
     padding: 10px;
-    font-family: "Source Sans Pro SemiBold";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     margin-left: 17px;
   }
 
@@ -404,6 +431,9 @@
   //--- NEWS ---
   #news {
     margin-top: 10vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     article {
       padding-bottom: 20px;
       margin: 15px;

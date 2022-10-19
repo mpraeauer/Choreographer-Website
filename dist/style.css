@@ -57,32 +57,32 @@ table {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/source-sans-pro-v21-latin_greek-ext-300.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-300.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+  src: url("./fonts/source-sans-pro-v21-latin_greek-ext-300.eot"); /* IE9 Compat Modes */
+  src: local(""), url("./fonts/source-sans-pro-v21-latin_greek-ext-300.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro-v21-latin_greek-ext-300.woff2") format("woff2"), url("./fonts/source-sans-pro-v21-latin_greek-ext-300.woff") format("woff"), url("./fonts/source-sans-pro-v21-latin_greek-ext-300.ttf") format("truetype"), url("./fonts/source-sans-pro-v21-latin_greek-ext-300.svg#SourceSansPro") format("svg"); /* Legacy iOS */
 }
 /* source-sans-pro-regular - latin_greek-ext */
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-regular.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+  src: url("./fonts/source-sans-pro-v21-latin_greek-ext-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("./fonts/source-sans-pro-v21-latin_greek-ext-regular.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro-v21-latin_greek-ext-regular.woff2") format("woff2"), url("./fonts/source-sans-pro-v21-latin_greek-ext-regular.woff") format("woff"), url("./fonts/source-sans-pro-v21-latin_greek-ext-regular.ttf") format("truetype"), url("./fonts/source-sans-pro-v21-latin_greek-ext-regular.svg#SourceSansPro") format("svg"); /* Legacy iOS */
 }
 /* source-sans-pro-600 - latin_greek-ext */
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/source-sans-pro-v21-latin_greek-ext-600.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+  src: url("./fonts/source-sans-pro-v21-latin_greek-ext-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("./fonts/source-sans-pro-v21-latin_greek-ext-600.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro-v21-latin_greek-ext-600.woff2") format("woff2"), url("./fonts/source-sans-pro-v21-latin_greek-ext-600.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin_greek-ext-600.ttf") format("truetype"), url("./fonts/source-sans-pro-v21-latin_greek-ext-600.svg#SourceSansPro") format("svg"); /* Legacy iOS */
 }
 /* source-sans-pro-200 - latin */
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 200;
-  src: url("../fonts/source-sans-pro-v21-latin-200.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/source-sans-pro-v21-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-200.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-200.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-200.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-200.svg#SourceSansPro") format("svg"); /* Legacy iOS */
+  src: url("./fonts/source-sans-pro-v21-latin-200.eot"); /* IE9 Compat Modes */
+  src: local(""), url("./fonts/source-sans-pro-v21-latin-200.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro-v21-latin-200.woff2") format("woff2"), url("./fonts/source-sans-pro-v21-latin-200.woff") format("woff"), url("./fonts/source-sans-pro-v21-latin-200.ttf") format("truetype"), url("./fonts/source-sans-pro-v21-latin-200.svg#SourceSansPro") format("svg"); /* Legacy iOS */
 }
 .hidden {
   display: none;
@@ -94,7 +94,7 @@ table {
   visibility: visible;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   ul {
     display: flex;
     flex-direction: row;
@@ -610,21 +610,27 @@ main p {
   }
   .level h3 {
     font-size: 22px;
-    font-family: "Source Sans Pro Light";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     color: #FFAD6E;
     padding-top: 0px;
   }
   .level p {
     padding-top: 20px;
     font-size: 16px;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-weight: 100;
     color: white;
     padding-bottom: 40px;
   }
   .level a {
     font-size: 16px;
-    font-family: "Source Sans Pro SemiBold";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     color: white;
     text-transform: uppercase;
     border: #FFAD6E;
@@ -643,7 +649,9 @@ main p {
     max-width: 68px;
   }
   .level blockquote {
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     color: white;
     font-size: 22px;
     padding-top: 10px;
@@ -654,7 +662,7 @@ main p {
     flex-direction: column;
     align-items: center;
   }
-  .icon {
+  [class^=icon-] {
     width: 115px;
     height: 115px;
     border-radius: 50%;
@@ -686,6 +694,9 @@ main p {
   }
   #workshops {
     display: grid;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     height: 1999px;
     grid-template-columns: 1fr 0.1fr;
     grid-template-rows: 175px 521px 87px 521px 87px 521px 87px;
@@ -698,7 +709,9 @@ main p {
     transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     color: #1A1A1A;
     background-color: #F7F7F7;
@@ -711,7 +724,9 @@ main p {
     transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     color: #1A1A1A;
     background-color: #F7F7F7;
@@ -724,7 +739,9 @@ main p {
     transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    font-family: "Source Sans Pro ExtraLight";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     color: #1A1A1A;
     background-color: #F7F7F7;
@@ -734,14 +751,18 @@ main p {
     padding-top: 30px;
   }
   .text-levels .super-headline {
-    font-family: "Source Sans Pro SemiBold";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 16px;
     color: #363636;
     text-transform: uppercase;
     padding-bottom: 10px;
   }
   .text-levels h2 {
-    font-family: "Source Sans Pro Light";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 28px;
     color: #D5874C;
   }
@@ -757,7 +778,7 @@ main p {
     grid-area: level3;
     background-color: #363636;
   }
-  [class^=icon-] section {
+  .iconsection {
     display: flex;
     justify-content: center;
     position: relative;
@@ -781,14 +802,18 @@ main p {
     text-transform: uppercase;
     font-size: 16px;
     padding-left: 17px;
-    font-family: "Source Sans Pro SemiBold";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
   }
   #about div h2 {
     font-size: 28px;
     color: #D5874C;
     padding-left: 17px;
     margin-bottom: 12px;
-    font-family: "Source Sans Pro Light";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
   }
   #about div .text {
     margin: 0 0px 30px 0px;
@@ -802,7 +827,9 @@ main p {
     font-size: 16px;
     border: 1px solid #FFAD6E;
     padding: 10px;
-    font-family: "Source Sans Pro SemiBold";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
     margin-left: 17px;
   }
   #about div a:hover {
@@ -883,6 +910,9 @@ main p {
   }
   #news {
     margin-top: 10vh;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
   }
   #news article {
     padding-bottom: 20px;
