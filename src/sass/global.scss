@@ -208,7 +208,7 @@
     display: grid;
     height: 1999px;
     grid-template-columns: 1fr 0.1fr;
-    grid-template-rows: 175px 521px 87px 521px 87px 521px 87px;
+    grid-template-rows: 180x 521px 87px 521px 87px 521px 87px;
     grid-template-areas: "text-levels text-levels""level1 apply""empty1 empty1""level2 register1""empty2 empty2""level3 register2""empty3 empty3";
   }
 
