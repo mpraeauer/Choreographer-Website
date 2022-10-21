@@ -1,3 +1,9 @@
+@include breakpoint($desktop){
+    #hamburger {
+        visibility: hidden;
+      }
+}
+
 @include breakpoint(0, $mobile) {   
     #hamburger {
         width: 24px;
