@@ -541,6 +541,12 @@ body .super-headline {
     display: flex;
     align-items: center;
   }
+  #workshops2 .mastergrid [class^=blockquote-] .quoti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   #workshops2 .mastergrid [class^=blockquote-] .quoti img {
     padding-top: 20px;
     max-width: 68px;

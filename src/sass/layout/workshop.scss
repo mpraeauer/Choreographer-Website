@@ -147,6 +147,10 @@
                 align-items: center;
                 
                 .quoti{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                     img{
                         padding-top: 20px;
                         max-width: 68px;
