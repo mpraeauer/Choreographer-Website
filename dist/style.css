@@ -288,6 +288,7 @@ body .super-headline {
   #mainnav ul li {
     text-align: right;
     margin-top: 24px;
+    font-size: 20px;
   }
   #mainnav ul a {
     color: white;
