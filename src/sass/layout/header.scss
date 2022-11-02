@@ -47,16 +47,15 @@
             margin-right: 25px;
             gap: 40px;
             margin-top: -35px;
-            
-            li a {
-                color: #FFAD6E;
-                margin: 20px 0px 20px 0px;
-                text-transform: uppercase;
-                text-decoration: none;
-                border-bottom: 0.5px solid #FFAD6E;
-                font-size: 16px;
-                font-weight: 200;
-              }
+          }
+          li a {
+            color: #FFAD6E;
+            margin: 20px 0px 20px 0px;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-bottom: 0.5px solid #FFAD6E;
+            font-size: 16px;
+            font-weight: 200;
           }
       }
 
@@ -83,13 +82,12 @@
           height: 100%;
           width: 100%;
           padding-bottom: 50px;
-
-          #maintitle{
+        }
+        #maintitle{
             display: flex;
             flex-direction: column;
             width: 55%;
-            
-        
+
             h2 {
                 padding-left: 0;
                 line-height: 30px;
@@ -110,7 +108,6 @@
                 color: white;
                 border: 0.5px solid #FFAD6E;
                 padding: 0;
-                }
             }
         }
     }  

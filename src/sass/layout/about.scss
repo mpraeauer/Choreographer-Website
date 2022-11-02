@@ -1,4 +1,4 @@
-@include breakpoint($desktop){
+@include breakpoint($desktop) {
 
     #about {
         display: flex;
@@ -9,19 +9,12 @@
         padding-top: 15vh;
         padding-bottom: 15vh;
 
-        // .portraitdiv{
-        //     display: flex;
-        //     align-items: flex-start;
-        //     justify-content: center;
-        //     width: 45%;
-        //     height: 100%;
-            // object-fit: cover;
 
-            img{
-                object-fit: cover;             
-                width: 45%;
-            }
-        // }
+        img {
+            object-fit: cover;
+            width: 45%;
+        }
+
         .metext {
             display: flex;
             flex-direction: column;
@@ -29,7 +22,7 @@
             padding-left: 3vh;
             padding-bottom: 3vh;
 
-            p{
+            p {
                 margin-top: 3vh;
                 align-items: center;
                 justify-content: center;
@@ -37,6 +30,7 @@
                 line-height: 1.6rem;
                 padding-left: 0;
             }
+
             a {
                 display: flex;
                 justify-content: center;
@@ -49,21 +43,23 @@
                 font-size: 16px;
                 // margin-left: 15px;
                 margin-top: 4vh;
-                text-decoration: none;   
+                text-decoration: none;
                 text-transform: uppercase;
                 color: black;
-                border: 1px solid #FFAD6E;;
+                border: 1px solid #FFAD6E;
+                ;
                 padding: 0;
             }
-            h2{
+
+            h2 {
                 padding-left: 0;
             }
-        }    
-      }
- 
+        }
+    }
+
 }
 
-@include breakpoint(0,$mobile){
+@include breakpoint(0, $mobile) {
 
     #about {
         display: flex;
@@ -74,24 +70,25 @@
         padding-top: 7vh;
         padding-bottom: 7vh;
 
-        .portraitdiv{
-            img{
-                display: flex;               
-                width: 100%;
-            }
+
+        img {
+            display: flex;
+            width: 100%;
         }
+
         .metext {
             display: flex;
             flex-direction: column;
             width: 100%;
 
-            p{
+            p {
                 margin-top: 1.5vh;
                 align-items: center;
                 justify-content: center;
                 width: 85%;
                 line-height: 1.8rem;
             }
+
             a {
                 display: flex;
                 justify-content: center;
@@ -104,10 +101,11 @@
                 font-size: 16px;
                 margin-left: 15px;
                 margin-top: 4vh;
-                text-decoration: none;   
+                text-decoration: none;
                 text-transform: uppercase;
                 color: black;
-                border: 1px solid #FFAD6E;;
+                border: 1px solid #FFAD6E;
+                ;
                 padding: 0;
             }
         }
