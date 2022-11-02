@@ -213,6 +213,7 @@
                 justify-content: center;
                 align-items: center;
                 height: 260px;
+                
             }   
             .register1 {
                 grid-area: register1;
@@ -365,6 +366,7 @@
                 display: flex;
                 justify-content: center;
                 height: 480px;
+                padding-right:10px;
             }   
             .register1 {
                 grid-area: register1;
@@ -378,6 +380,7 @@
                 display: flex;
                 justify-content: center;
                 height: 480px;
+                padding-right:10px;
             }            
             .register2 {
                 grid-area: register2;
@@ -391,6 +394,7 @@
                 display: flex;
                 justify-content: center;
                 height: 480px;
+                padding-right:10px;
             }
         }
     }   

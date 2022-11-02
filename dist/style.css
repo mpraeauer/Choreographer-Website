@@ -742,6 +742,7 @@ body .super-headline {
     display: flex;
     justify-content: center;
     height: 480px;
+    padding-right: 10px;
   }
   #workshops1 .mastergrid .register1 {
     grid-area: register1;
@@ -755,6 +756,7 @@ body .super-headline {
     display: flex;
     justify-content: center;
     height: 480px;
+    padding-right: 10px;
   }
   #workshops1 .mastergrid .register2 {
     grid-area: register2;
@@ -768,6 +770,7 @@ body .super-headline {
     display: flex;
     justify-content: center;
     height: 480px;
+    padding-right: 10px;
   }
   #workshops2 {
     display: none;
